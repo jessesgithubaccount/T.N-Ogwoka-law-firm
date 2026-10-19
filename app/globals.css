@@ -328,11 +328,11 @@ details[open] summary::after{content:"\2212"}
 .welc-card .h5{font-size:clamp(19px,2vw,25px);margin:0 0 9px}
 .welc-card .lab5{margin-bottom:6px;font-size:12px}
 .welc-card .sq{margin-top:3px;padding:12px 23px}
-.sstats{list-style:none;padding:0;margin:16px 0 0 clamp(0px,7vw,110px);display:grid;grid-template-columns:repeat(4,max-content);gap:12px clamp(8px,1.1vw,14px);text-align:center;justify-content:center}
-@media(max-width:760px){.sstats{grid-template-columns:repeat(2,max-content);margin-left:0}}
-.sstats strong{font:700 clamp(22px,2.4vw,28px)/1.1 var(--sans);color:var(--ink)}
-.sstats i{font-style:normal;font-size:16px;font-weight:700;color:var(--ink);vertical-align:top;position:relative;top:.3em;margin-left:2px}
-.sstats span{font-size:14px;color:#6b6e78}
+.sstats{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:repeat(4,max-content);gap:10px clamp(10px,1.2vw,16px);text-align:center;justify-content:center}
+@media(max-width:760px){.sstats{grid-template-columns:repeat(2,max-content);margin-left:0;justify-content:center}}
+.sstats strong{font:700 clamp(17px,1.8vw,21px)/1.1 var(--sans);color:var(--ink)}
+.sstats i{font-style:normal;font-size:12px;font-weight:700;color:var(--ink);vertical-align:top;position:relative;top:.3em;margin-left:2px}
+.sstats span{font-size:12px;color:#6b6e78}
 .why5{background:#f8f8f8;padding:clamp(14px,2vw,24px) clamp(20px,6%,90px)}
 .why5-g{display:grid;grid-template-columns:1fr;gap:clamp(10px,1.4vw,14px);align-items:start}
 .why5-g .h5{font:600 13px var(--sans);letter-spacing:2px;text-transform:uppercase;color:#a9843f;margin:0 0 6px}
